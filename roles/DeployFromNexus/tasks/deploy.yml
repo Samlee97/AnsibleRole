@@ -1,0 +1,5 @@
+---
+- name: Downloading Artifact from Nexus to EC2
+  copy:
+    src: **.war
+    dest: /var/lib/tomcat7/webapps
